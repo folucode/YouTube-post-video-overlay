@@ -1,0 +1,43 @@
+.App {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 100vh;
+}
+
+h3 {
+  color: rgb(46, 44, 44);
+}
+
+.video-area {
+  position: relative;
+  width: 500px;
+  margin: auto;
+  left: calc(50% — 200px);
+}
+
+.card {
+  left: 50%;
+  margin-left: -250px;
+  width: 500px;
+  position: absolute;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.column {
+  float: left;
+  text-align: center;
+  border: solid 1px rgb(180, 179, 179);
+  width: 45%;
+  margin: 2.3%;
+  height: 85px;
+  opacity: 1;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
